@@ -64,37 +64,33 @@ function Projects() {
                     </Typography>
                   )}
                 </CardContent>
-                <CardActions>
+                <CardActions style={{justifyContent:'space-evenly'}}>
                   {project.clientSource && (
-                    <Button size="small" color="primary" href={project.clientSource} target="_blank" rel="noopener noreferrer">
+                    <Button size="small" variant='contained' color="primary" href={project.clientSource} target="_blank" rel="noopener noreferrer">
                       Client Source
                     </Button>
                   )}
                   {project.serverSource && (
-                    <Button size="small" color="primary" href={project.serverSource} target="_blank" rel="noopener noreferrer">
+                    <Button size="small" variant='contained' color='error' href={project.serverSource} target="_blank" rel="noopener noreferrer">
                       Server Source
                     </Button>
                   )}
-                  {project.demoLink && (
-                    <Button size="small" color="primary" href={project.demoLink} target="_blank" rel="noopener noreferrer">
-                      Demo
-                    </Button>
+                  {project.deployedUrl && (
+                    <Button size="small" variant='contained' color="success" href={project.deployedUrl} target="_blank" rel="noopener noreferrer">
+                    Deployed URL
+                  </Button>
                   )}
                   {project.source && (
-                    <Button size="small" color="primary" href={project.source} target="_blank" rel="noopener noreferrer">
-                      Source
-                    </Button>
+                    <Button size="small" variant='contained' color="error" href={project.source} target="_blank" rel="noopener noreferrer">
+                   Source
+                  </Button>
                   )}
                   {project.loginCredentials && (
-                    <Button size="small" color="primary" href={project.loginCredentials} target="_blank" rel="noopener noreferrer">
-                      Login Credentials
+                    <Button size="small" variant='contained' color="primary" href={project.loginCredentials} target="_blank" rel="noopener noreferrer">
+                      Login Cred
                     </Button>
                   )}
-                  {project.deployedUrl && (
-                    <Button size="small" color="primary" href={project.deployedUrl} target="_blank" rel="noopener noreferrer">
-                      Deployed URL
-                    </Button>
-                  )}
+                 
                 </CardActions>
               </Card>
             </Grid>
