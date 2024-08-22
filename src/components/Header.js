@@ -29,7 +29,7 @@ function Header() {
   }, []);
 
   return (
-    <AppBar position="static" color="transparent" elevation={0}>
+    <AppBar position="static" color="transparent" elevation={headerShadow ? 4 : 0} >
       <Container>
         <Toolbar sx={{ justifyContent: 'space-between' }}>
         <Box sx={{ display: 'flex', alignItems: 'center' }}>
