@@ -1,35 +1,3 @@
-// // components/Footer.js
-// import React from 'react';
-// import { Link } from 'react-router-dom';
-
-// function Footer() {
-//   return (
-//     <footer>
-//       <div className="top-footer">
-//         <p>Ragavan .</p>
-//       </div>
-//       <div className="middle-footer">
-//         <ul className="footer-menu">
-//           <li><Link to="/">Home</Link></li>
-//           <li><Link to="/about">About</Link></li>
-//           <li><Link to="/projects">Projects</Link></li>
-//           <li><Link to="/contact">Contact</Link></li>
-//         </ul>
-//       </div>
-//       <div className="footer-social-icons">
-//         <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="icon"><i className="bx bxl-instagram"></i></a>
-//         <a href="https://www.linkedin.com/in/ragavan-r-83077b1b4" target="_blank" rel="noopener noreferrer" className="icon"><i className="bx bxl-linkedin"></i></a>
-//         <a href="https://github.com/ragav7332" target="_blank" rel="noopener noreferrer" className="icon"><i className="bx bxl-github"></i></a>
-//       </div>
-//       <div className="bottom-footer">
-//         <p>Copyright © <Link to="/">ragavan</Link> - All rights reserved</p>
-//       </div>
-//     </footer>
-//   );
-// }
-
-// export default Footer;
-
 import React from 'react';
 import '../App.css'
 import { Link } from 'react-router-dom';
@@ -60,13 +28,13 @@ function Footer() {
           </Grid>
           <Grid item xs={12} md={4}>
             <Box display="flex" justifyContent="flex-end">
-              <IconButton href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" style={{ color: '#fff' }}>
+              <IconButton href="https://www.instagram.com/" target="_blank" style={{ color: '#fff' }}>
                 <InstagramIcon />
               </IconButton>
-              <IconButton href="https://www.linkedin.com/in/ragavan-r-83077b1b4" target="_blank" rel="noopener noreferrer" style={{ color: '#fff' }}>
+              <IconButton href="https://www.linkedin.com/in/ragavan-r-83077b1b4" target="_blank" style={{ color: '#fff' }}>
                 <LinkedInIcon />
               </IconButton>
-              <IconButton href="https://github.com/ragav7332" target="_blank" rel="noopener noreferrer" style={{ color: '#fff' }}>
+              <IconButton href="https://github.com/ragav7332" target="_blank" style={{ color: '#fff' }}>
                 <GitHubIcon />
               </IconButton>
             </Box>
