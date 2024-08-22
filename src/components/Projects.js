@@ -66,28 +66,28 @@ function Projects() {
                 </CardContent>
                 <CardActions style={{justifyContent:'space-evenly'}}>
                   {project.clientSource && (
-                    <Button size="small" variant='contained' color="primary" href={project.clientSource} target="_blank" rel="noopener noreferrer">
+                    <Button size="small" variant='contained' color="primary" sx={{fontSize:'11px'}} href={project.clientSource} target="_blank" rel="noopener noreferrer">
                       Client Source
                     </Button>
                   )}
                   {project.serverSource && (
-                    <Button size="small" variant='contained' color='error' href={project.serverSource} target="_blank" rel="noopener noreferrer">
+                    <Button size="small" variant='contained' color='error'sx={{fontSize:'11px'}} href={project.serverSource} target="_blank" rel="noopener noreferrer">
                       Server Source
                     </Button>
                   )}
                   {project.deployedUrl && (
-                    <Button size="small" variant='contained' color="success" href={project.deployedUrl} target="_blank" rel="noopener noreferrer">
+                    <Button size="small" variant='contained' color="success" sx={{fontSize:'11px'}} href={project.deployedUrl} target="_blank" rel="noopener noreferrer">
                     Deployed URL
                   </Button>
                   )}
                   {project.source && (
-                    <Button size="small" variant='contained' color="error" href={project.source} target="_blank" rel="noopener noreferrer">
+                    <Button size="small" variant='contained' color="error" sx={{fontSize:'11px'}} href={project.source} target="_blank" rel="noopener noreferrer">
                    Source
                   </Button>
                   )}
                   {project.loginCredentials && (
-                    <Button size="small" variant='contained' color="primary" href={project.loginCredentials} target="_blank" rel="noopener noreferrer">
-                      Login Cred
+                    <Button size="small" variant='contained' color="primary" sx={{fontSize:'11px'}} href={project.loginCredentials} target="_blank" rel="noopener noreferrer">
+                      Login Creditionals
                     </Button>
                   )}
                  
