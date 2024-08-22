@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { Card, CardContent, CardActions, Button, Typography, Grid, Container, Box } from '@mui/material';
-import { Source } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
@@ -67,32 +66,32 @@ function Projects() {
                 </CardContent>
                 <CardActions>
                   {project.clientSource && (
-                    <Button size="small" color="primary" href={project.clientSource} target="_blank">
+                    <Button size="small" color="primary" href={project.clientSource} target="_blank" rel="noopener noreferrer">
                       Client Source
                     </Button>
                   )}
                   {project.serverSource && (
-                    <Button size="small" color="primary" href={project.serverSource} target="_blank">
+                    <Button size="small" color="primary" href={project.serverSource} target="_blank" rel="noopener noreferrer">
                       Server Source
                     </Button>
                   )}
                   {project.demoLink && (
-                    <Button size="small" color="primary" href={project.demoLink} target="_blank">
+                    <Button size="small" color="primary" href={project.demoLink} target="_blank" rel="noopener noreferrer">
                       Demo
                     </Button>
                   )}
                   {project.source && (
-                    <Button size="small" color="primary" href={project.source} target="_blank">
+                    <Button size="small" color="primary" href={project.source} target="_blank" rel="noopener noreferrer">
                       Source
                     </Button>
                   )}
                   {project.loginCredentials && (
-                    <Button size="small" color="primary" href={project.loginCredentials} target="_blank">
+                    <Button size="small" color="primary" href={project.loginCredentials} target="_blank" rel="noopener noreferrer">
                       Login Credentials
                     </Button>
                   )}
                   {project.deployedUrl && (
-                    <Button size="small" color="primary" href={project.deployedUrl} target="_blank">
+                    <Button size="small" color="primary" href={project.deployedUrl} target="_blank" rel="noopener noreferrer">
                       Deployed URL
                     </Button>
                   )}

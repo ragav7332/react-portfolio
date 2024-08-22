@@ -28,13 +28,13 @@ function Footer() {
           </Grid>
           <Grid item xs={12} md={4}>
             <Box display="flex" justifyContent="flex-end">
-              <IconButton href="https://www.instagram.com/" target="_blank" style={{ color: '#fff' }}>
+              <IconButton href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" style={{ color: '#fff' }}>
                 <InstagramIcon />
               </IconButton>
-              <IconButton href="https://www.linkedin.com/in/ragavan-r-83077b1b4" target="_blank" style={{ color: '#fff' }}>
+              <IconButton href="https://www.linkedin.com/in/ragavan-r-83077b1b4" rel="noopener noreferrer" target="_blank" style={{ color: '#fff' }}>
                 <LinkedInIcon />
               </IconButton>
-              <IconButton href="https://github.com/ragav7332" target="_blank" style={{ color: '#fff' }}>
+              <IconButton href="https://github.com/ragav7332" target="_blank" rel="noopener noreferrer" style={{ color: '#fff' }}>
                 <GitHubIcon />
               </IconButton>
             </Box>

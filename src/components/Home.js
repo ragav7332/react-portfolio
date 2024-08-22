@@ -2,7 +2,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Box, Button, Container, Typography, IconButton } from '@mui/material';
-import useTypingEffect from '../hooks/useTypingEffect';
 import { Instagram, LinkedIn, GitHub } from '@mui/icons-material';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
@@ -35,20 +34,20 @@ function Home() {
             </Button> */}
             <a
                 href= "https://drive.google.com/file/d/1BKwhD__gg0870-fhkE7nzxes2-AR0YuV/view?usp=sharing"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
                 ><Button variant="outlined" color="primary">
                   Download CV <i class="uil uil-file-alt"></i></Button>
               </a>
           </Box>
         </Box>
         <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2, mt: 4 }}>
-          <IconButton component="a" href="https://www.instagram.com/" target="_blank" >
+          <IconButton component="a" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" >
             <Instagram sx={{ color: 'secondary.main' }} />
           </IconButton>
-          <IconButton component="a" href="https://www.linkedin.com/in/ragavan-r-83077b1b4" target="_blank" >
+          <IconButton component="a" href="https://www.linkedin.com/in/ragavan-r-83077b1b4" target="_blank" rel="noopener noreferrer" >
             <LinkedIn sx={{ color: 'secondary.main' }} />
           </IconButton>
-          <IconButton component="a" href="https://github.com/ragav7332" target="_blank" >
+          <IconButton component="a" href="https://github.com/ragav7332" target="_blank" rel="noopener noreferrer">
             <GitHub sx={{ color: 'secondary.main' }} />
           </IconButton>
         </Box>

@@ -26,7 +26,7 @@ function About() {
                 success of a dynamic organization.</Typography>
               <a
                 href= "https://drive.google.com/file/d/1BKwhD__gg0870-fhkE7nzxes2-AR0YuV/view?usp=sharing"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
                 ><Button variant="contained" color="primary">
                   Download CV <i class="uil uil-file-alt"></i></Button>
               </a>
