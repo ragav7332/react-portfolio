@@ -8,6 +8,12 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 function Projects() {
   const projects = [
     {
+      title: "Todo-web List",
+      description: "To prioratize task for Scheduling ,this should have done using Crud Operation adding the data in Category of Low,Medium,High to Adjust with basic Styling properties",
+      clientSource: "https://github.com/ragav7332/25_todo_app",
+      deployedUrl: "https://inquisitive-shortbread-960b72.netlify.app/"
+    },
+    {
       title: "Gmail Cloning",
       description: "Developed a Gmail Clone App in Both Frontend and Backend of React.js, Node.js, Express.js, and SQL in MongoDB Atlas. Make a mail request and responsive to send and receive a mail.",
       clientSource: "https://github.com/ragav7332/gmailclient",
@@ -27,7 +33,7 @@ function Projects() {
       clientSource: "https://github.com/ragav7332/stripeproduct",
       serverSource : "https://github.com/ragav7332/Stripebackend",
       deployedUrl: "https://stripe-and-razorpay-gateway.netlify.app/"
-    },
+    },  
     {
       title: "Software Engineer Intern",
       description: "Developed ERP Individual Screen Using React, Node.js, Express & SQL in MySQL for 6 months. Explored the field of Employee personal details, address, qualification, leave system, and dashboard of ERP.",
