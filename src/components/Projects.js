@@ -9,7 +9,7 @@ function Projects() {
   const projects = [
     {
       title: "Chat-App",
-      description: "The Chat-Bot-App uses React on the front-end and Node.js with Socket.io on the back-end for real-time messaging. Users can connect and send messages via a Socket.io connection, enabling live chat. The app allows communication with multiple users in real time, where messages are broadcasted to all connected users. The Node.js server handles socket events for sending and receiving messages across different users.",
+      description: "The Chat-Bot-App uses React on the front-end and Node.js with Socket.io on the back-end for real-time messaging. Users can connect and send messages via a Socket.io connection, enabling live chat. The app allows communication with multiple users in real time, where messages are broadcasted to all connected users.",
       clientSource: "https://github.com/ragav7332/Chat-APP-React/tree/Chat_app",
       serverSource:"https://github.com/ragav7332/Chat-app-server",
       deployedUrl: "https://exquisite-pothos-82d638.netlify.app/"
