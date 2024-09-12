@@ -8,10 +8,11 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 function Projects() {
   const projects = [
     {
-      title: "Todo-web List",
-      description: "To prioratize task for Scheduling ,this should have done using Crud Operation adding the data in Category of Low,Medium,High to Adjust with basic Styling properties",
-      clientSource: "https://github.com/ragav7332/25_todo_app",
-      deployedUrl: "https://inquisitive-shortbread-960b72.netlify.app/"
+      title: "Chat-App",
+      description: "The Chat-Bot-App uses React on the front-end and Node.js with Socket.io on the back-end for real-time messaging. Users can connect and send messages via a Socket.io connection, enabling live chat. The app allows communication with multiple users in real time, where messages are broadcasted to all connected users. The Node.js server handles socket events for sending and receiving messages across different users.",
+      clientSource: "https://github.com/ragav7332/Chat-APP-React/tree/Chat_app",
+      serverSource:"https://github.com/ragav7332/Chat-app-server",
+      deployedUrl: "https://exquisite-pothos-82d638.netlify.app/"
     },
     {
       title: "Gmail Cloning",
