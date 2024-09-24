@@ -15,6 +15,14 @@ function Projects() {
       deployedUrl: "https://exquisite-pothos-82d638.netlify.app/"
     },
     {
+      title: "ECOMMERCE",
+      description: "Explore a wide selection of stylish clothing for men, women, and kids in our ecommerce store. From elegant dresses and suits to comfortable loungewear, there's something for every occasion. Shop now and enjoy top-quality fashion for the whole family!",
+      clientSource: "https://github.com/ragav7332/Ecomm-client",
+      serverSource:"https://github.com/ragav7332/Ecomm-server",
+      deployedUrl: "https://ecommerce-publishable.netlify.app/"
+    },
+
+    {
       title: "Gmail Cloning",
       description: "Developed a Gmail Clone App in Both Frontend and Backend of React.js, Node.js, Express.js, and SQL in MongoDB Atlas. Make a mail request and responsive to send and receive a mail.",
       clientSource: "https://github.com/ragav7332/gmailclient",
